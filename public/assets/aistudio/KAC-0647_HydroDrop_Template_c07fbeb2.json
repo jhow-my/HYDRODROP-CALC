@@ -1,0 +1,637 @@
+{
+  "exportFormatVersion": "1.0",
+  "app": "HydroDrop Calc",
+  "exportedAt": "2026-11-20T04:53:13.870Z",
+  "parameters": {
+    "projectName": "Reference Residence 1",
+    "projectRef": "KAC-0647",
+    "pipeSpecId": "PPR_PN16",
+    "optionalPipeSpecId": "MSCL",
+    "maxVelocityMs": 2,
+    "maxStaticPressureBar": 3.65,
+    "prvSetPressureBar": 2,
+    "boosterPumpBoostBar": 2,
+    "zoningStrategy": "MANUAL_ZONES",
+    "desiredDropperCount": null,
+    "subDroppers": [
+      {
+        "id": "sd-1795078976325-mxiq",
+        "label": "SD1",
+        "parentDropperIndex": 3,
+        "branchFloorId": "gen-1795078402001-11"
+      },
+      {
+        "id": "sd-1795079075991-5ulr",
+        "label": "SD2",
+        "parentDropperIndex": 3,
+        "branchFloorId": "flr-1795078420969"
+      }
+    ],
+    "pipeHeaderCustomSize": null
+  },
+  "floors": [
+    {
+      "id": "gen-roof-1795078402001",
+      "floorLabel": "Roof",
+      "floorHeightM": 1.5,
+      "supplyMode": "ROOF_HEADER",
+      "loadingUnits": 0,
+      "prvOverride": "AUTO",
+      "manualDropperIndex": 1
+    },
+    {
+      "id": "gen-1795078402001-32",
+      "floorLabel": "L32",
+      "floorHeightM": 3.15,
+      "supplyMode": "BOOSTER",
+      "loadingUnits": 308,
+      "prvOverride": "AUTO",
+      "manualDropperIndex": 1,
+      "applianceCounts": {
+        "washbasin": 28,
+        "bidet": 28,
+        "wc_cistern": 28,
+        "shower_head": 28,
+        "domestic_sink": 14,
+        "washing_machine": 14
+      }
+    },
+    {
+      "id": "gen-1795078402001-31",
+      "floorLabel": "L31",
+      "floorHeightM": 3.15,
+      "supplyMode": "BOOSTER",
+      "loadingUnits": 308,
+      "prvOverride": "AUTO",
+      "manualDropperIndex": 1,
+      "applianceCounts": {
+        "washbasin": 28,
+        "bidet": 28,
+        "wc_cistern": 28,
+        "shower_head": 28,
+        "domestic_sink": 14,
+        "washing_machine": 14
+      }
+    },
+    {
+      "id": "gen-1795078402001-30",
+      "floorLabel": "L30",
+      "floorHeightM": 3.15,
+      "supplyMode": "BOOSTER",
+      "loadingUnits": 308,
+      "prvOverride": "AUTO",
+      "manualDropperIndex": 1,
+      "applianceCounts": {
+        "washbasin": 28,
+        "bidet": 28,
+        "wc_cistern": 28,
+        "shower_head": 28,
+        "domestic_sink": 14,
+        "washing_machine": 14
+      }
+    },
+    {
+      "id": "gen-1795078402001-29",
+      "floorLabel": "L29",
+      "floorHeightM": 3.15,
+      "supplyMode": "BOOSTER",
+      "loadingUnits": 308,
+      "prvOverride": "AUTO",
+      "manualDropperIndex": 1,
+      "applianceCounts": {
+        "washbasin": 28,
+        "bidet": 28,
+        "wc_cistern": 28,
+        "shower_head": 28,
+        "domestic_sink": 14,
+        "washing_machine": 14
+      }
+    },
+    {
+      "id": "gen-1795078402001-28",
+      "floorLabel": "L28",
+      "floorHeightM": 3.15,
+      "supplyMode": "GRAVITY",
+      "loadingUnits": 308,
+      "prvOverride": "AUTO",
+      "manualDropperIndex": 2,
+      "applianceCounts": {
+        "washbasin": 28,
+        "bidet": 28,
+        "wc_cistern": 28,
+        "shower_head": 28,
+        "domestic_sink": 14,
+        "washing_machine": 14
+      }
+    },
+    {
+      "id": "gen-1795078402001-27",
+      "floorLabel": "L27",
+      "floorHeightM": 3.15,
+      "supplyMode": "GRAVITY",
+      "loadingUnits": 308,
+      "prvOverride": "AUTO",
+      "manualDropperIndex": 2,
+      "applianceCounts": {
+        "washbasin": 28,
+        "bidet": 28,
+        "wc_cistern": 28,
+        "shower_head": 28,
+        "domestic_sink": 14,
+        "washing_machine": 14
+      }
+    },
+    {
+      "id": "gen-1795078402001-26",
+      "floorLabel": "L26",
+      "floorHeightM": 3.15,
+      "supplyMode": "GRAVITY",
+      "loadingUnits": 308,
+      "prvOverride": "AUTO",
+      "manualDropperIndex": 2,
+      "applianceCounts": {
+        "washbasin": 28,
+        "bidet": 28,
+        "wc_cistern": 28,
+        "shower_head": 28,
+        "domestic_sink": 14,
+        "washing_machine": 14
+      }
+    },
+    {
+      "id": "gen-1795078402001-25",
+      "floorLabel": "L25",
+      "floorHeightM": 3.15,
+      "supplyMode": "GRAVITY",
+      "loadingUnits": 308,
+      "prvOverride": "AUTO",
+      "manualDropperIndex": 2,
+      "applianceCounts": {
+        "washbasin": 28,
+        "bidet": 28,
+        "wc_cistern": 28,
+        "shower_head": 28,
+        "domestic_sink": 14,
+        "washing_machine": 14
+      }
+    },
+    {
+      "id": "gen-1795078402001-24",
+      "floorLabel": "L24",
+      "floorHeightM": 3.15,
+      "supplyMode": "GRAVITY",
+      "loadingUnits": 308,
+      "prvOverride": "AUTO",
+      "manualDropperIndex": 2,
+      "applianceCounts": {
+        "washbasin": 28,
+        "bidet": 28,
+        "wc_cistern": 28,
+        "shower_head": 28,
+        "domestic_sink": 14,
+        "washing_machine": 14
+      }
+    },
+    {
+      "id": "gen-1795078402001-23",
+      "floorLabel": "L23",
+      "floorHeightM": 3.15,
+      "supplyMode": "GRAVITY",
+      "loadingUnits": 308,
+      "prvOverride": "AUTO",
+      "manualDropperIndex": 2,
+      "applianceCounts": {
+        "washbasin": 28,
+        "bidet": 28,
+        "wc_cistern": 28,
+        "shower_head": 28,
+        "domestic_sink": 14,
+        "washing_machine": 14
+      }
+    },
+    {
+      "id": "gen-1795078402001-22",
+      "floorLabel": "L22",
+      "floorHeightM": 3.15,
+      "supplyMode": "GRAVITY",
+      "loadingUnits": 308,
+      "prvOverride": "FORCE_PRV",
+      "manualDropperIndex": 2,
+      "dropperPrvOverrides": {
+        "2": "FORCE_PRV"
+      },
+      "applianceCounts": {
+        "washbasin": 28,
+        "bidet": 28,
+        "wc_cistern": 28,
+        "shower_head": 28,
+        "domestic_sink": 14,
+        "washing_machine": 14
+      }
+    },
+    {
+      "id": "gen-1795078402001-21",
+      "floorLabel": "L21",
+      "floorHeightM": 3.15,
+      "supplyMode": "GRAVITY",
+      "loadingUnits": 308,
+      "prvOverride": "AUTO",
+      "manualDropperIndex": 2,
+      "applianceCounts": {
+        "washbasin": 28,
+        "bidet": 28,
+        "wc_cistern": 28,
+        "shower_head": 28,
+        "domestic_sink": 14,
+        "washing_machine": 14
+      }
+    },
+    {
+      "id": "gen-1795078402001-20",
+      "floorLabel": "L20",
+      "floorHeightM": 3.15,
+      "supplyMode": "GRAVITY",
+      "loadingUnits": 308,
+      "prvOverride": "AUTO",
+      "manualDropperIndex": 2,
+      "applianceCounts": {
+        "washbasin": 28,
+        "bidet": 28,
+        "wc_cistern": 28,
+        "shower_head": 28,
+        "domestic_sink": 14,
+        "washing_machine": 14
+      }
+    },
+    {
+      "id": "gen-1795078402001-19",
+      "floorLabel": "L19",
+      "floorHeightM": 3.15,
+      "supplyMode": "GRAVITY",
+      "loadingUnits": 308,
+      "prvOverride": "AUTO",
+      "manualDropperIndex": 2,
+      "applianceCounts": {
+        "washbasin": 28,
+        "bidet": 28,
+        "wc_cistern": 28,
+        "shower_head": 28,
+        "domestic_sink": 14,
+        "washing_machine": 14
+      }
+    },
+    {
+      "id": "gen-1795078402001-18",
+      "floorLabel": "L18",
+      "floorHeightM": 3.15,
+      "supplyMode": "GRAVITY",
+      "loadingUnits": 308,
+      "prvOverride": "AUTO",
+      "manualDropperIndex": 2,
+      "applianceCounts": {
+        "washbasin": 28,
+        "bidet": 28,
+        "wc_cistern": 28,
+        "shower_head": 28,
+        "domestic_sink": 14,
+        "washing_machine": 14
+      }
+    },
+    {
+      "id": "gen-1795078402001-17",
+      "floorLabel": "L17",
+      "floorHeightM": 3.15,
+      "supplyMode": "GRAVITY",
+      "loadingUnits": 308,
+      "prvOverride": "NO_PRV",
+      "manualDropperIndex": 2,
+      "dropperPrvOverrides": {
+        "2": "NO_PRV"
+      },
+      "applianceCounts": {
+        "washbasin": 28,
+        "bidet": 28,
+        "wc_cistern": 28,
+        "shower_head": 28,
+        "domestic_sink": 14,
+        "washing_machine": 14
+      }
+    },
+    {
+      "id": "gen-1795078402001-16",
+      "floorLabel": "L16",
+      "floorHeightM": 3.15,
+      "supplyMode": "GRAVITY",
+      "loadingUnits": 308,
+      "prvOverride": "FORCE_PRV",
+      "manualDropperIndex": 3,
+      "dropperPrvOverrides": {
+        "2": "NO_PRV",
+        "3": "FORCE_PRV"
+      },
+      "applianceCounts": {
+        "washbasin": 28,
+        "bidet": 28,
+        "wc_cistern": 28,
+        "shower_head": 28,
+        "domestic_sink": 14,
+        "washing_machine": 14
+      }
+    },
+    {
+      "id": "gen-1795078402001-15",
+      "floorLabel": "L15",
+      "floorHeightM": 3.15,
+      "supplyMode": "GRAVITY",
+      "loadingUnits": 308,
+      "prvOverride": "AUTO",
+      "manualDropperIndex": 3,
+      "dropperPrvOverrides": {
+        "2": "NO_PRV"
+      },
+      "applianceCounts": {
+        "washbasin": 28,
+        "bidet": 28,
+        "wc_cistern": 28,
+        "shower_head": 28,
+        "domestic_sink": 14,
+        "washing_machine": 14
+      }
+    },
+    {
+      "id": "gen-1795078402001-14",
+      "floorLabel": "L14",
+      "floorHeightM": 3.15,
+      "supplyMode": "GRAVITY",
+      "loadingUnits": 308,
+      "prvOverride": "AUTO",
+      "manualDropperIndex": 3,
+      "applianceCounts": {
+        "washbasin": 28,
+        "bidet": 28,
+        "wc_cistern": 28,
+        "shower_head": 28,
+        "domestic_sink": 14,
+        "washing_machine": 14
+      }
+    },
+    {
+      "id": "gen-1795078402001-13",
+      "floorLabel": "L13",
+      "floorHeightM": 3.15,
+      "supplyMode": "GRAVITY",
+      "loadingUnits": 308,
+      "prvOverride": "AUTO",
+      "manualDropperIndex": 3,
+      "applianceCounts": {
+        "washbasin": 28,
+        "bidet": 28,
+        "wc_cistern": 28,
+        "shower_head": 28,
+        "domestic_sink": 14,
+        "washing_machine": 14
+      }
+    },
+    {
+      "id": "gen-1795078402001-12",
+      "floorLabel": "L12",
+      "floorHeightM": 3.15,
+      "supplyMode": "GRAVITY",
+      "loadingUnits": 308,
+      "prvOverride": "AUTO",
+      "manualDropperIndex": 3,
+      "applianceCounts": {
+        "washbasin": 28,
+        "bidet": 28,
+        "wc_cistern": 28,
+        "shower_head": 28,
+        "domestic_sink": 14,
+        "washing_machine": 14
+      }
+    },
+    {
+      "id": "gen-1795078402001-11",
+      "floorLabel": "L11",
+      "floorHeightM": 3.15,
+      "supplyMode": "GRAVITY",
+      "loadingUnits": 308,
+      "prvOverride": "FORCE_PRV",
+      "manualDropperIndex": 3,
+      "subDropperId": "sd-1795078976325-mxiq",
+      "subDropperPrvOverrides": {
+        "sd-1795078976325-mxiq": "FORCE_PRV"
+      },
+      "applianceCounts": {
+        "washbasin": 28,
+        "bidet": 28,
+        "wc_cistern": 28,
+        "shower_head": 28,
+        "domestic_sink": 14,
+        "washing_machine": 14
+      }
+    },
+    {
+      "id": "gen-1795078402001-10",
+      "floorLabel": "L10",
+      "floorHeightM": 3.15,
+      "supplyMode": "GRAVITY",
+      "loadingUnits": 308,
+      "prvOverride": "AUTO",
+      "manualDropperIndex": 3,
+      "subDropperId": "sd-1795078976325-mxiq",
+      "applianceCounts": {
+        "washbasin": 28,
+        "bidet": 28,
+        "wc_cistern": 28,
+        "shower_head": 28,
+        "domestic_sink": 14,
+        "washing_machine": 14
+      }
+    },
+    {
+      "id": "gen-1795078402001-9",
+      "floorLabel": "L9",
+      "floorHeightM": 3.15,
+      "supplyMode": "GRAVITY",
+      "loadingUnits": 308,
+      "prvOverride": "AUTO",
+      "manualDropperIndex": 3,
+      "subDropperId": "sd-1795078976325-mxiq",
+      "applianceCounts": {
+        "washbasin": 28,
+        "bidet": 28,
+        "wc_cistern": 28,
+        "shower_head": 28,
+        "domestic_sink": 14,
+        "washing_machine": 14
+      }
+    },
+    {
+      "id": "gen-1795078402001-8",
+      "floorLabel": "L8",
+      "floorHeightM": 3.15,
+      "supplyMode": "GRAVITY",
+      "loadingUnits": 308,
+      "prvOverride": "AUTO",
+      "manualDropperIndex": 3,
+      "subDropperId": "sd-1795078976325-mxiq",
+      "applianceCounts": {
+        "washbasin": 28,
+        "bidet": 28,
+        "wc_cistern": 28,
+        "shower_head": 28,
+        "domestic_sink": 14,
+        "washing_machine": 14
+      }
+    },
+    {
+      "id": "gen-1795078402001-7",
+      "floorLabel": "L7",
+      "floorHeightM": 3.15,
+      "supplyMode": "GRAVITY",
+      "loadingUnits": 371,
+      "prvOverride": "AUTO",
+      "manualDropperIndex": 3,
+      "subDropperId": "sd-1795078976325-mxiq",
+      "applianceCounts": {
+        "washbasin": 34,
+        "bidet": 26,
+        "wc_cistern": 26,
+        "shower_head": 22,
+        "domestic_sink": 8,
+        "washing_machine": 8,
+        "taps_garden_garage": 10,
+        "urinal_flush_valve": 3
+      }
+    },
+    {
+      "id": "gen-1795078402001-6",
+      "floorLabel": "L6",
+      "floorHeightM": 4.2,
+      "supplyMode": "GRAVITY",
+      "loadingUnits": 184,
+      "prvOverride": "NO_PRV",
+      "manualDropperIndex": 3,
+      "subDropperId": "sd-1795078976325-mxiq",
+      "subDropperPrvOverrides": {
+        "sd-1795078976325-mxiq": "NO_PRV"
+      },
+      "applianceCounts": {
+        "washbasin": 17,
+        "bidet": 17,
+        "wc_cistern": 17,
+        "shower_head": 17,
+        "domestic_sink": 8,
+        "washing_machine": 8
+      }
+    },
+    {
+      "id": "gen-1795078402001-5",
+      "floorLabel": "L5",
+      "floorHeightM": 3.15,
+      "supplyMode": "GRAVITY",
+      "loadingUnits": 184,
+      "prvOverride": "AUTO",
+      "manualDropperIndex": 3,
+      "subDropperId": "sd-1795079075991-5ulr",
+      "applianceCounts": {
+        "washbasin": 17,
+        "bidet": 17,
+        "wc_cistern": 17,
+        "shower_head": 17,
+        "domestic_sink": 8,
+        "washing_machine": 8
+      }
+    },
+    {
+      "id": "gen-1795078402001-4",
+      "floorLabel": "L4",
+      "floorHeightM": 3.15,
+      "supplyMode": "GRAVITY",
+      "loadingUnits": 184,
+      "prvOverride": "AUTO",
+      "manualDropperIndex": 3,
+      "subDropperId": "sd-1795079075991-5ulr",
+      "applianceCounts": {
+        "washbasin": 17,
+        "bidet": 17,
+        "wc_cistern": 17,
+        "shower_head": 17,
+        "domestic_sink": 8,
+        "washing_machine": 8
+      }
+    },
+    {
+      "id": "gen-1795078402001-3",
+      "floorLabel": "L3",
+      "floorHeightM": 3.15,
+      "supplyMode": "GRAVITY",
+      "loadingUnits": 184,
+      "prvOverride": "AUTO",
+      "manualDropperIndex": 3,
+      "subDropperId": "sd-1795079075991-5ulr",
+      "applianceCounts": {
+        "washbasin": 17,
+        "bidet": 17,
+        "wc_cistern": 17,
+        "shower_head": 17,
+        "domestic_sink": 8,
+        "washing_machine": 8
+      }
+    },
+    {
+      "id": "gen-1795078402001-2",
+      "floorLabel": "L2",
+      "floorHeightM": 3.15,
+      "supplyMode": "GRAVITY",
+      "loadingUnits": 184,
+      "prvOverride": "AUTO",
+      "manualDropperIndex": 3,
+      "subDropperId": "sd-1795079075991-5ulr",
+      "applianceCounts": {
+        "washbasin": 17,
+        "bidet": 17,
+        "wc_cistern": 17,
+        "shower_head": 17,
+        "domestic_sink": 8,
+        "washing_machine": 8
+      }
+    },
+    {
+      "id": "gen-1795078402001-1",
+      "floorLabel": "L1",
+      "floorHeightM": 3.15,
+      "supplyMode": "GRAVITY",
+      "loadingUnits": 184,
+      "prvOverride": "AUTO",
+      "manualDropperIndex": 3,
+      "subDropperId": "sd-1795079075991-5ulr",
+      "applianceCounts": {
+        "washbasin": 17,
+        "bidet": 17,
+        "wc_cistern": 17,
+        "shower_head": 17,
+        "domestic_sink": 8,
+        "washing_machine": 8
+      }
+    },
+    {
+      "id": "flr-1795078420969",
+      "floorLabel": "G",
+      "floorHeightM": 4,
+      "supplyMode": "GRAVITY",
+      "loadingUnits": 18.5,
+      "prvOverride": "AUTO",
+      "manualDropperIndex": 3,
+      "subDropperId": "sd-1795079075991-5ulr",
+      "subDropperPrvSetPressures": {
+        "sd-1795079075991-5ulr": 3.6
+      },
+      "applianceCounts": {
+        "washbasin": 3,
+        "bidet": 4,
+        "wc_cistern": 4
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "HYDRODROP CALC V2 (to Github)",
+  "description": "Hydraulic pipe sizing, cumulative loading unit flow conversion, and static pressure PRV zoning application for high-rise domestic cold water distribution systems.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
