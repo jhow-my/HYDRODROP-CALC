@@ -693,7 +693,7 @@ export const FloorInputGrid: React.FC<FloorInputGridProps> = ({
               onClick={handleGenerateBuilding}
               className="h-7 px-3 font-display text-[10px] font-bold uppercase text-white bg-[#121212] hover:bg-[#2a2a2a] transition-colors whitespace-nowrap shrink-0"
             >
-              Generate Floors
+              Generate
             </button>
             <button
               type="button"
@@ -701,7 +701,7 @@ export const FloorInputGrid: React.FC<FloorInputGridProps> = ({
               className="h-7 px-2.5 font-display text-[10px] font-bold uppercase bg-white border border-[#121212] text-[#121212] hover:bg-[#121212] hover:text-white inline-flex items-center gap-1 transition-colors whitespace-nowrap shrink-0"
             >
               <Plus className="w-3 h-3" />
-              <span>{floors.length === 0 ? 'Add Roof Header' : 'Insert Upper'}</span>
+              <span>{floors.length === 0 ? 'Add Roof' : 'Upper'}</span>
             </button>
             <button
               type="button"
@@ -709,7 +709,7 @@ export const FloorInputGrid: React.FC<FloorInputGridProps> = ({
               className="h-7 px-2.5 font-display text-[10px] font-bold uppercase bg-white border border-[#e0e0e0] text-[#121212] hover:border-[#121212] inline-flex items-center gap-1 transition-colors whitespace-nowrap shrink-0"
             >
               <Plus className="w-3 h-3" />
-              <span>{floors.length === 0 ? 'Add First Floor' : 'Append Lower'}</span>
+              <span>{floors.length === 0 ? 'Add L1' : 'Lower'}</span>
             </button>
           </div>
         </div>
